@@ -20,6 +20,7 @@
 }
 .hs_main_circle .hs_green_ring .hs_h {
   position: absolute;
+  cursor: default;
   left: 50%;
   top: 50%;
   color: #008853;
