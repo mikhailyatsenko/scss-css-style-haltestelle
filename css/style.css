@@ -1,0 +1,31 @@
+.hs_main_circle {
+  position: relative;
+  background: #f0ca00;
+  border-radius: 50%;
+  width: 248px;
+  height: 248px;
+  z-index: 1;
+}
+.hs_main_circle .hs_green_ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #f0ca00;
+  border-radius: 50%;
+  border: #008853 33.48px solid;
+  width: 168.64px;
+  height: 168.64px;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+.hs_main_circle .hs_green_ring .hs_h {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #008853;
+  font-family: Arial;
+  font-size: 143.84px;
+  font-weight: bold;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}

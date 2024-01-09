@@ -1,0 +1,35 @@
+$base-size: 248px;
+
+.hs_main_circle {
+  position: relative;
+  background: #f0ca00;
+  border-radius: 50%;
+  width: $base-size;
+  height: $base-size;
+  z-index: 1;
+
+  .hs_green_ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #f0ca00;
+    border-radius: 50%;
+    border: #008853 $base-size * 0.135 solid;
+    width: $base-size * 0.68;
+    height: $base-size * 0.68;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+
+    .hs_h {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: #008853;
+      font-family: Arial;
+      font-size: $base-size * 0.58;
+      font-weight: bold;
+      z-index: 3;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
